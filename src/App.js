@@ -214,7 +214,7 @@ function App() {
 
 						<div className='flex md:flex-row flex-col justify-around items-center md:mx-20 md:px-10 mx-3 px-3'>
 
-							<h1 className="md:text-5xl text-3xl my-10 z-10 md:w-2/5">
+							<h1 className="md:text-5xl text-3xl my-10 z-10 md:w-2/5 mx-10">
 								Ready to become your industry's go-to
 								<span className='text-blue-500'> thought leader?</span> <br />
 								<h2 className='text-2xl my-10 z-10 md:w-100'>Turn your LinkedIn profile into a lead-generating machine</h2> <br />
