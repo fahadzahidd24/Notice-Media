@@ -148,10 +148,10 @@ function App() {
 										}`}
 								/>
 							</div>
-							<div className="flex flex-col shadow-lg shadow-black bg-stone-200 text-black p-5 gap-y-3 rounded-lg md:w-2/5 m-3">
-								<h2 className="bg-blue-500 rounded-full md:text-5xl text-3xl w-fit h-fit px-6 py-3 shadow-lg text-white">{index + 1}</h2>
-								<h3 className="md:text-3xl text-xl">{doing.name}</h3>
-								<p className="md:text-xl text-md">{doing.description}</p>
+							<div className="flex flex-col shadow-lg shadow-black bg-stone-200 text-black p-5 gap-y-3 rounded-lg md:w-2/5 m-3 wwd wwd-2">
+								<h2 className="bg-blue-500 rounded-full md:text-5xl text-3xl w-fit h-fit px-6 py-3 shadow-lg text-white ">{index + 1}</h2>
+								<h3 className="md:text-3xl text-xl text-white">{doing.name}</h3>
+								<p className="md:text-xl text-md text-white">{doing.description}</p>
 							</div>
 						</motion.div>
 					))}
@@ -166,9 +166,9 @@ function App() {
 
 					<div className="flex md:flex-row flex-col md:p-10 sm:px-16 m-10 justify-center">
 						{services.map((service, index) => (
-							<div className="flex-col p-5 m-5 lg:p-7 lg:m-7 bg-white rounded-xl md:w-[175px] lg:w-[225px] shadow-xl shadow-black md:hover:scale-110 duration-150 ease-in">
-								<h2 className="lg:text-2xl md:text-xl text-lg text-sky-500 ">{service.title}</h2>
-								<p className="lg:text-lg md:text-md text-sm text-black mt-5 ">{service.description}</p>
+							<div className="flex-col p-9 m-5 lg:p-7 lg:m-7 bg-white rounded-xl md:w-[175px] lg:w-[275px] shadow-xl shadow-black md:hover:scale-110 duration-150 ease-in servicesCard wwd">
+								<h2 className="lg:text-2xl md:text-xl text-lg text-sky-500  ">{service.title}</h2>
+								<p className="lg:text-lg md:text-md text-sm text-white mt-5 ">{service.description}</p>
 							</div>
 						))}
 
@@ -204,9 +204,9 @@ function App() {
 								Ready to become your industry's go-to
 								<span className='text-blue-500'> thought leader?</span>
 							</h1>
-							<div className='flex flex-col border-black border-[1px] p-10 gap-y-5 rounded-lg md:w-2/5 m-3 shadow-lg shadow-black bg-stone-200'>
-								<h2 className="md:text-3xl text-xl text-center font-bold text-black">
-									Try our Muse tool
+							<div className='flex flex-col border-black border-[1px] p-10 gap-y-5 rounded-lg md:w-2/5 m-3 shadow-lg shadow-black wwd '>
+								<h2 className="md:text-3xl text-xl text-center font-bold text-white">
+									Try Muse - A SaaS Tool
 								</h2>
 								<motion.button className="text-xl text-white bg-blue-500 p-3 rounded-lg w-fit self-center hover:bg-blue-600 duration-300 z-10"
 									whileHover={{ scale: 1.1 }}

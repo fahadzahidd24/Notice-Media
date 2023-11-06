@@ -3,6 +3,25 @@ html{
   background: #02022b;
   color: #ddeaff;
 }
+.wwd{
+  background: #02022b;
+  box-shadow: inset -10px 0 1.9375rem rgba(217,217,217,.1), inset 0 0 0.4375rem rgba(255,255,255,.1);
+  border-radius: 50px;
+  }
+  .wwd-2{
+    padding: 40px;
+  }
+  
+  .testimonial{
+    background: #02022b;
+    box-shadow: inset -20px 0 1.9375rem rgba(217,217,217,.1), inset 0 0 0.4375rem rgba(255,255,255,.1);
+    
+  }
+
+  .invert{
+    filter : invert(1);
+  }
+
 
 h1{
   color:white;
