@@ -212,12 +212,12 @@ function App() {
 						whileInView={{ opacity: 1, translateY: 0 }}
 					>
 
-						<div className='flex md:flex-row flex-col justify-around items-center md:mx-20 md:px-10 mx-3 px-3'>
+						<div className='flex md:flex-row flex-col justify-around items-start md:mx-20 md:px-10 mx-3 px-3'>
 
-							<h1 className="md:text-4xl text-3xl my-10 z-10 md:w-100 mx-10">
+							<h1 className="md:text-4xl text-3xl my-10 z-10 md:w-100 mx-10 font-extrabold">
 								Ready to become your industry's go-to
 								<span className='text-blue-500'> thought leader?</span> <br />
-								<h2 className='text-2xl my-10 z-10 md:w-100'>Turn your LinkedIn profile into a lead-generating machine</h2> <br />
+								<h2 className='text-lg my-10 z-10 md:w-100'>Turn your LinkedIn profile into a lead-generating machine</h2> <br />
 								<div className='flex w-100 justify-center'>
 
 									<motion.button className="text-xl text-white bg-blue-500 p-3 rounded-lg w-fit self-center hover:bg-blue-600 duration-300 z-10"
@@ -230,7 +230,7 @@ function App() {
 
 							<div className='flex flex-col border-black border-[1px] p-10 gap-y-5 rounded-lg md:w-3/5 m-3 shadow-lg shadow-black wwd '>
 								<h2 className="md:text-2xl text-lg  font-bold text-white">
-									Generate captivating, engaging and converting&nbsp;<span className="text-sky-500">LinkedIn</span>&nbsp;content in seconds, using&nbsp;<span className="text-sky-500">Muse</span>&nbsp;. <br /> Try it out!
+									Create captivating, engaging and converting&nbsp;<span className="text-sky-500">LinkedIn</span>&nbsp;content in seconds, using&nbsp;<span className="text-sky-500">Muse</span>. <br /> Try it out!
 								</h2>
 								<motion.button className="text-xl text-white bg-blue-500 p-3 rounded-lg w-fit self-center hover:bg-blue-600 duration-300 z-10"
 									whileHover={{ scale: 1.1 }}
