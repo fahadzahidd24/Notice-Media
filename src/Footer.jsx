@@ -24,7 +24,7 @@ const Footer = () => {
 					<div className="hover:text-sky-500 cursor-pointer" onClick={() => scrollToElementDesktop("process")} >PROCESS</div>
 					{/* <div className="hover:text-sky-500 cursor-pointer" onClick={() => scrollToElementDesktop("what-we-do")} >WHAT WE DO?</div> */}
 					<div className="hover:text-sky-500 cursor-pointer" onClick={() => scrollToElementDesktop("services")} >SERVICES</div>
-					<div className="hover:text-sky-500 cursor-pointer" onClick={() => scrollToElementDesktop("testimonial")} >WHAT PEOPLE ARE SAYING?</div>
+					<div className="hover:text-sky-500 cursor-pointer" onClick={() => scrollToElementDesktop("testimonial")} >WHAT PEOPLE ARE SAYING</div>
                 </div>
 
                 <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="flex items-center">

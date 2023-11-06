@@ -217,7 +217,7 @@ function App() {
 							<h1 className="md:text-4xl text-3xl my-10 z-10 md:w-100 mx-10 font-extrabold">
 								Ready to become your industry's go-to
 								<span className='text-blue-500'> thought leader?</span> <br />
-								<h2 className='text-lg my-10 z-10 md:w-100'>Turn your LinkedIn profile into a lead-generating machine</h2> <br />
+								<p className='text-base my-10 z-10 md:w-100'>Turn your LinkedIn profile into a lead-generating machine</p> <br />
 								<div className='flex w-100 justify-center'>
 
 									<motion.button className="text-xl text-white bg-blue-500 p-3 rounded-lg w-fit self-center hover:bg-blue-600 duration-300 z-10"
