@@ -106,7 +106,7 @@ function App() {
 								<img src={Check} alt="checkBox" className=" md:w-8 md:h-8 w-5 h-5 mr-3" />
 								<span>
 
-								Becoming an&nbsp;<span className="text-sky-500">authority </span> &nbsp;figure in your niche
+									Becoming an&nbsp;<span className="text-sky-500">authority </span> &nbsp;figure in your niche
 								</span>
 							</li>
 							<li className="flex">
@@ -119,21 +119,21 @@ function App() {
 							<li className="flex ">
 								<img src={Check} alt="checkBox" className=" md:w-8 md:h-8 w-5 h-5 mr-3" />
 								<span>
-								Grow&nbsp;<span className="text-sky-500">organically </span> &nbsp;on social media
+									Grow&nbsp;<span className="text-sky-500">organically </span> &nbsp;on social media
 								</span>
 							</li>
 							<li className="flex ">
 								<img src={Check} alt="checkBox" className=" md:w-8 md:h-8 w-5 h-5 mr-3" />
 								<span>
 
-								Increase&nbsp;<span className="text-sky-500">deal flow </span> &nbsp;
+									Increase&nbsp;<span className="text-sky-500">deal flow </span> &nbsp;
 								</span>
 							</li>
 							<li className="flex ">
 								<img src={Check} alt="checkBox" className=" md:w-8 md:h-8 w-5 h-5 mr-3" />
 								<span>
 
-								Cultivate&nbsp;<span className="text-sky-500">community </span> &nbsp;
+									Cultivate&nbsp;<span className="text-sky-500">community </span> &nbsp;
 								</span>
 							</li>
 						</ol>
@@ -191,7 +191,7 @@ function App() {
 
 				<section id="imagine" className="flex flex-col m-5 md:my-32 md:h-fit items-center ">
 					<h1 className="md:text-5xl text-3xl my-10 text-left">
-						Just Imagine having the power to...
+						Just Imagine...
 					</h1>
 					<Imagination />
 
@@ -212,15 +212,25 @@ function App() {
 						whileInView={{ opacity: 1, translateY: 0 }}
 					>
 
-						<div className='flex md:flex-row flex-col justify-center items-center md:mx-20 md:px-10 mx-3 px-3'>
+						<div className='flex md:flex-row flex-col justify-around items-center md:mx-20 md:px-10 mx-3 px-3'>
 
 							<h1 className="md:text-5xl text-3xl my-10 z-10 md:w-2/5">
 								Ready to become your industry's go-to
-								<span className='text-blue-500'> thought leader?</span>
+								<span className='text-blue-500'> thought leader?</span> <br />
+								<h2 className='text-2xl my-10 z-10 md:w-100'>Turn your LinkedIn profile into a lead-generating machine</h2> <br />
+								<div className='flex w-100 justify-center'>
+
+									<motion.button className="text-xl text-white bg-blue-500 p-3 rounded-lg w-fit self-center hover:bg-blue-600 duration-300 z-10"
+										whileHover={{ scale: 1.1 }}
+									>
+										<a href='https://calendly.com/joshcons/30min' target="_blank" rel="noreferrer">Schedule Chat</a>
+									</motion.button>
+								</div>
 							</h1>
+
 							<div className='flex flex-col border-black border-[1px] p-10 gap-y-5 rounded-lg md:w-2/5 m-3 shadow-lg shadow-black wwd '>
-								<h2 className="md:text-3xl text-xl text-center font-bold text-white">
-									Try Muse - A SaaS Tool
+								<h2 className="md:text-3xl text-xl  font-bold text-white">
+									Generate captivating, engaging and converting&nbsp;<span className="text-sky-500">LinkedIn</span>&nbsp;content in seconds, using&nbsp;<span className="text-sky-500">Muse</span>&nbsp;. <br /> Try it out!
 								</h2>
 								<motion.button className="text-xl text-white bg-blue-500 p-3 rounded-lg w-fit self-center hover:bg-blue-600 duration-300 z-10"
 									whileHover={{ scale: 1.1 }}
@@ -228,13 +238,9 @@ function App() {
 									<a href='https://linkedin-post-generator-eight.vercel.app/' target="_blank" rel="noreferrer">Muse</a>
 								</motion.button>
 
-								<motion.button className="text-xl text-white bg-blue-500 p-3 rounded-lg w-fit self-center hover:bg-blue-600 duration-300 z-10"
-									whileHover={{ scale: 1.1 }}
-								>
-									<a href='https://calendly.com/joshcons/30min' target="_blank" rel="noreferrer">Schedule Chat</a>
-								</motion.button>
 
-								<img src={pencil} alt="muse pencil" className='flex self-end md:w-2/3 md:-translate-x-16 z-0' />
+
+								{/* <img src={pencil} alt="muse pencil" className='flex self-end md:w-2/3 md:-translate-x-16 z-0' /> */}
 							</div>
 						</div>
 
