@@ -1,0 +1,101 @@
+html{
+  scroll-behavior: smooth;
+  background: #02022b;
+  color: #ddeaff;
+}
+
+h1{
+  color:white;
+  font-weight:900;
+}
+
+.App{
+  /* font-family: 'Young Serif', serif; */
+  /* overflow-x: hidden; */
+
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Young Serif', serif; */
+}
+
+.fade-in-right{
+  z-index: 50;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  animation: fadeInRight 0.3s ease-in-out;
+}
+
+.fade-in-left{
+  z-index: 50;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  animation: fadeInLeft 0.3s ease-in-out;
+}
+
+.fade-out{
+  animation: fadeOut 0.3s ease-out;
+}
+
+.mobile-menu {
+  animation: fadeInRightMenu 0.3s ease-in;
+}
+
+.mobile-menu.exit {
+  animation: fadeOut 0.3s ease-out;
+}
+
+@keyframes fadeInRightMenu {
+  0% {
+    translate: 50%;
+    opacity: 0;
+  }
+
+  100% {
+    translate: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    scale:0.5;
+    translate: 50%;
+    opacity: 0;
+  }
+
+  100% {
+    scale:1;
+    translate: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    scale:0.5;
+    translate: -50%;
+    opacity: 0;
+  }
+
+  100% {
+    scale:1;
+    translate: 0;
+    opacity: 1;
+  }
+}
+
+
+@keyframes fadeOut {
+  0% {
+    translate: 0;
+    opacity: 1;
+  }
+
+  100% {
+    translate: 50%;
+    opacity: 0;
+  }
+}
