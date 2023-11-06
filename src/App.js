@@ -199,7 +199,7 @@ function App() {
 
 				<section id="testimonial" className="flex flex-col m-5 md:my-32 md:h-fit items-center">
 					<h1 className="md:text-5xl text-3xl my-10 text-center">
-						WHAT PEOPLE ARE SAYING?
+						WHAT PEOPLE ARE SAYING
 					</h1>
 					<Testimonials />
 
