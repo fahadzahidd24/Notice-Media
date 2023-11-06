@@ -22,6 +22,10 @@ html{
     filter : invert(1);
   }
 
+  .bold{
+    font-weight: 900
+  }
+
 
 h1{
   color:white;

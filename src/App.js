@@ -98,8 +98,8 @@ function App() {
 						transition={{ delay: 0.3, duration: 0.3, ease: "backOut" }}
 						className=" mt-20"
 					>
-						<p className="text-lg md:text-2xl text-white">
-							You are here because you're a funder or executive and you're interested in
+						<p className="text-lg md:text-3xl text-white font-extrabold">
+							You are here because you're a founder or executive and you're interested in :
 						</p>
 						<ol className="flex flex-col gap-5 text-md md:text-xl text-white my-10">
 							<li className="flex">
@@ -167,7 +167,7 @@ function App() {
 					<div className="flex md:flex-row flex-col md:p-10 sm:px-16 m-10 justify-center">
 						{services.map((service, index) => (
 							<div className="flex-col p-9 m-5 lg:p-7 lg:m-7 bg-white rounded-xl md:w-[175px] lg:w-[275px] shadow-xl shadow-black md:hover:scale-110 duration-150 ease-in servicesCard wwd">
-								<h2 className="lg:text-2xl md:text-xl text-lg text-sky-500  ">{service.title}</h2>
+								<h2 className="lg:text-2xl md:text-2xl text-lg text-sky-500  bold font-">{service.title}</h2>
 								<p className="lg:text-lg md:text-md text-sm text-white mt-5 ">{service.description}</p>
 							</div>
 						))}
