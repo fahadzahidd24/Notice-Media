@@ -180,7 +180,7 @@ function App() {
 
 					<div className="flex md:flex-row flex-col md:p-10 sm:px-16 m-10 justify-center">
 						{services.map((service, index) => (
-							<div className="flex-col p-9 m-5 lg:p-7 lg:m-7 bg-white rounded-xl md:w-[175px] lg:w-[275px] shadow-xl shadow-black md:hover:scale-110 duration-150 ease-in servicesCard wwd w-100">
+							<div className="flex-col p-9 m-5 lg:p-7 lg:m-7 bg-white rounded-xl md:w-[175px] lg:w-[275px] w shadow-xl shadow-black md:hover:scale-110 duration-150 ease-in servicesCard wwd w-100 w-[70vw]">
 								<h2 className="lg:text-2xl md:text-2xl text-lg text-sky-500  bold font-">{service.title}</h2>
 								<p className="lg:text-lg md:text-md text-sm text-white mt-5 ">{service.description}</p>
 							</div>
