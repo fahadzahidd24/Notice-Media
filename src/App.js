@@ -104,23 +104,23 @@ function App() {
 						<ol className="flex flex-col gap-5 text-md md:text-xl text-white my-10">
 							<li className="flex">
 								<img src={Check} alt="checkBox" className=" md:w-8 md:h-8 w-5 h-5 mr-3" />
-								Becoming an authority figure in your niche
+								Becoming an &nbsp;<span className="text-sky-500">authority </span> &nbsp;figure in your niche
 							</li>
 							<li className="flex">
 								<img src={Check} alt="checkBox" className=" md:w-8 md:h-8 w-5 h-5 mr-3" />
-								Building an online presence / brand for visibility
+								Building an online presence / brand for &nbsp;<span className="text-sky-500">visibility </span> &nbsp;
 							</li>
 							<li className="flex">
 								<img src={Check} alt="checkBox" className=" md:w-8 md:h-8 w-5 h-5 mr-3" />
-								Grow organically on social media
+								Grow &nbsp;<span className="text-sky-500">organically </span> &nbsp; on social media
 							</li>
 							<li className="flex">
 								<img src={Check} alt="checkBox" className=" md:w-8 md:h-8 w-5 h-5 mr-3" />
-								Increase deal flow
+								Increase &nbsp;<span className="text-sky-500">deal flow </span> &nbsp;
 							</li>
 							<li className="flex">
 								<img src={Check} alt="checkBox" className=" md:w-8 md:h-8 w-5 h-5 mr-3" />
-								Cultivate community
+								Cultivate &nbsp;<span className="text-sky-500">community </span> &nbsp;
 							</li>
 						</ol>
 					</motion.div>
