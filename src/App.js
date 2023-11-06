@@ -104,23 +104,37 @@ function App() {
 						<ol className="flex flex-col gap-5 text-md md:text-xl text-white my-10">
 							<li className="flex">
 								<img src={Check} alt="checkBox" className=" md:w-8 md:h-8 w-5 h-5 mr-3" />
+								<span>
+
 								Becoming an&nbsp;<span className="text-sky-500">authority </span> &nbsp;figure in your niche
+								</span>
 							</li>
 							<li className="flex">
 								<img src={Check} alt="checkBox" className=" md:w-8 md:h-8 w-5 h-5 mr-3" />
-								Building an online presence / brand for&nbsp;<span className="text-sky-500">visibility </span> &nbsp;
+								<span>
+
+									Building an online presence / brand for&nbsp;<span className="text-sky-500">visibility </span> &nbsp;
+								</span>
 							</li>
-							<li className="flex">
+							<li className="flex ">
 								<img src={Check} alt="checkBox" className=" md:w-8 md:h-8 w-5 h-5 mr-3" />
+								<span>
 								Grow&nbsp;<span className="text-sky-500">organically </span> &nbsp;on social media
+								</span>
 							</li>
-							<li className="flex">
+							<li className="flex ">
 								<img src={Check} alt="checkBox" className=" md:w-8 md:h-8 w-5 h-5 mr-3" />
+								<span>
+
 								Increase&nbsp;<span className="text-sky-500">deal flow </span> &nbsp;
+								</span>
 							</li>
-							<li className="flex">
+							<li className="flex ">
 								<img src={Check} alt="checkBox" className=" md:w-8 md:h-8 w-5 h-5 mr-3" />
+								<span>
+
 								Cultivate&nbsp;<span className="text-sky-500">community </span> &nbsp;
+								</span>
 							</li>
 						</ol>
 					</motion.div>
@@ -166,7 +180,7 @@ function App() {
 
 					<div className="flex md:flex-row flex-col md:p-10 sm:px-16 m-10 justify-center">
 						{services.map((service, index) => (
-							<div className="flex-col p-9 m-5 lg:p-7 lg:m-7 bg-white rounded-xl md:w-[175px] lg:w-[275px] shadow-xl shadow-black md:hover:scale-110 duration-150 ease-in servicesCard wwd">
+							<div className="flex-col p-9 m-5 lg:p-7 lg:m-7 bg-white rounded-xl md:w-[175px] lg:w-[275px] shadow-xl shadow-black md:hover:scale-110 duration-150 ease-in servicesCard wwd w-100">
 								<h2 className="lg:text-2xl md:text-2xl text-lg text-sky-500  bold font-">{service.title}</h2>
 								<p className="lg:text-lg md:text-md text-sm text-white mt-5 ">{service.description}</p>
 							</div>
