@@ -218,7 +218,7 @@ function App() {
 								Ready to become your industry's go-to
 								<span className='text-blue-500'> thought leader?</span> <br />
 								<p className='text-base my-10 z-10 md:w-100'>Turn your LinkedIn profile into a lead-generating machine</p> <br />
-								<div className='flex w-100 justify-center'>
+								<div className='flex w-100 justify-start'>
 
 									<motion.button className="text-xl text-white bg-blue-500 p-3 rounded-lg w-fit self-center hover:bg-blue-600 duration-300 z-10"
 										whileHover={{ scale: 1.1 }}
@@ -228,8 +228,8 @@ function App() {
 								</div>
 							</h1>
 
-							<div className='flex flex-col border-black border-[1px] p-10 gap-y-5 rounded-lg md:w-3/5 m-3 shadow-lg shadow-black wwd '>
-								<h2 className="md:text-2xl text-lg  font-bold text-white">
+							<div className='flex flex-col border-black border-[1px] p-7 gap-y-5 rounded-lg md:w-3/5  m-3 shadow-lg shadow-black wwd flex-wrap '>
+								<h2 className="md:text-2xl text-lg font-bold text-white">
 									Create captivating, engaging and converting&nbsp;<span className="text-sky-500">LinkedIn</span>&nbsp;content in seconds, using&nbsp;<span className="text-sky-500">Muse</span>. <br /> Try it out!
 								</h2>
 								<motion.button className="text-xl text-white bg-blue-500 p-3 rounded-lg w-fit self-center hover:bg-blue-600 duration-300 z-10"
